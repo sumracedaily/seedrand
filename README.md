@@ -12,7 +12,7 @@ import { rng, dailySeed } from "./seedrand.js"
 const r = rng(dailySeed())          // today's stream, same for every player
 r.next()                            // float in [0, 1)
 r.int(1, 99)                        // inclusive integer
-r.pick(["🥕", "🍅", "🎃"])           // random element
+r.pick(["🔺", "◆", "●"])             // random element
 r.chance(0.25)                      // true 25% of the time
 r.shuffle(deck)                     // shuffled copy
 

@@ -23,7 +23,7 @@
         ``,
         `ints:   ${[...Array(8)].map(() => r.int(1, 99)).join("  ")}`,
         `shuffle: ${r.shuffle([1, 2, 3, 4, 5, 6, 7, 8]).join(" ")}`,
-        `picks:  ${[...Array(6)].map(() => r.pick(["🥕", "🍅", "🎃"])).join(" ")}`,
+        `picks:  ${[...Array(6)].map(() => r.pick(["🔺", "◆", "●"])).join(" ")}`,
         `chance(0.5) x10: ${[...Array(10)].map(() => (r.chance(0.5) ? "H" : "T")).join("")}`,
       ].join("\n")
     </script>
